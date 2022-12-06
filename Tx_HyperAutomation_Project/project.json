@@ -1,0 +1,82 @@
+{
+  "name": "Tx_HyperAutomation_Project",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "DesktopApplication_Library": "[1.0.5]",
+    "DevOps-Azure.Activities": "[1.0.3]",
+    "EriBank_Android_Library": "[1.0.8]",
+    "EriBank_IOS_Library": "[1.0.8]",
+    "JSONPlaceholder_API_Library": "[1.0.6]",
+    "Microsoft.TeamFoundationServer.Client": "[16.170.0]",
+    "UiPath.Azure.Activities": "[1.2.0]",
+    "UiPath.Database.Activities": "[1.5.0]",
+    "UiPath.Excel.Activities": "[2.12.0-preview]",
+    "UiPath.Jira.Activities": "[2.4.0]",
+    "UiPath.Jira.IntegrationService.Activities": "[3.0.0]",
+    "UiPath.System.Activities": "[21.10.3]",
+    "UiPath.Testing.Activities": "[1.4.5]",
+    "UiPath.UIAutomation.Activities": "[21.10.4]",
+    "UiPathTeam.DatatableConverter.Activities": "[1.0.1]",
+    "UiPathTeam.JiraGet.Activities": "[1.0.0.116]",
+    "WebApplication_Library": "[1.0.10]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.12",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "Utilities/Connectors/ExcelScenario.xaml",
+        "Utilities/Connectors/JSONScenario.xaml",
+        "Utilities/Connectors/DataBase/DBConnection.xaml",
+        "Utilities/Connectors/DataBase/DeleteRows.xaml",
+        "Utilities/Connectors/DataBase/DropTable.xaml",
+        "Utilities/Connectors/DataBase/InsertRows.xaml",
+        "Utilities/Connectors/DataBase/InsertTable.xaml",
+        "Utilities/Connectors/DataBase/UpdateRows.xaml",
+        "Utilities/Connectors/TxEmailUtil.xaml",
+        "Utilities/Connectors/DataBase/ReportUtil/Reports.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e41df2d0-5f45-4b75-a175-d664e92d68c4",
+        "testCaseType": "TestCase",
+        "fileName": "Main.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "CSharp",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
